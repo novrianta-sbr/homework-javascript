@@ -1,0 +1,63 @@
+
+body{
+    background-color: azure;
+}
+
+.title{
+    font-family: 'Rampart One', cursive;
+}
+
+.flex-container{
+    text-align: center;
+    margin-top: 2cm;
+}
+
+.title {
+    text-align: center;
+}
+
+.suhu{
+    text-align: center;
+    margin-left: 5cm;
+    margin-right: 5cm;
+    padding-bottom: 2cm;
+    border-radius: 5%;
+    background-color: lightsteelblue;
+    font-family: 'Playfair Display', serif;
+    font-size: xx-large;
+}
+
+.convert > h3{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: red;
+}
+
+.button{
+    text-align: center;
+    margin-top: 1cm;
+}
+
+hr{
+    margin-left: 4cm;
+    margin-right: 4cm;
+}
+
+input[type=text], select {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=number], select {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+ 

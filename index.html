@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Konversi Temperatur Celcius dan Fahrenheit</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <h1 class="title">Membuat Konversi Temperatur Celcius dan Fahrenheit</h1>
+    <div class="flex-container">
+
+        <div class="suhu">
+            <form class="convert">
+                <h3>Temperature Convertion</h3>
+
+                <select name="from" id="from" onchange="select()">
+                    <option value="cel">Celcius</option>
+                    <option value="far">Farenheit</option>
+                    <option value="rea">Reamur</option>
+                </select>
+
+                <select name="to" id="to" onchange="select()">
+                    <option value="cel">Celcius</option>
+                    <option value="far">Farenheit</option>
+                    <option value="rea">Reamur</option>
+                </select>
+
+                <input type="number" name="kmh" id="num1" class="form-control mb-4" placeholder="some number">
+                <button type="button" onclick="convertFunction();">Convert</button>
+                <hr />
+                <input type="number" id="result" class="form-control mb-4" placeholder="result" disabled="">
+            </form>
+            <hr />
+
+            <div class="button">
+                <input id="freeTypeColor" type="text" class="form-control" placeholder="Input Color">
+                <button type="button" onclick="changeBackgroundFreeType();">Change</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
